@@ -13,10 +13,10 @@ public class TokoKomputer {
 
     }
 
-    public TokoKomputer(String nama_barang, String jenis_barang, int kode_barang, int stok_barang, double harga_barang) {
+    public TokoKomputer(int kode_barang, String nama_barang, String jenis_barang, int stok_barang, double harga_barang) {
+        this.kode_barang = kode_barang;
         this.nama_barang = nama_barang;
         this.jenis_barang = jenis_barang;
-        this.kode_barang = kode_barang;
         this.stok_barang = stok_barang;
         this.harga_barang = harga_barang;
     }

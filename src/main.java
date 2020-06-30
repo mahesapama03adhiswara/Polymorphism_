@@ -15,5 +15,11 @@ public class main {
         tokoKomputer.tampil_data_dengan_garis("=================================");
         tokoKomputer.tampil_data_dengan_garis("*********************************");
         double hasilReturnValue=tokoKomputer.getHarga_barang();
+
+
+        //dari constuktor
+        TokoKomputer tokokomputer1 = new TokoKomputer(2, "mouse", "hardware", 7, 25000);
+        tokokomputer1.tampil_data_dengan_garis("--------------------------------");
+
     }
 }

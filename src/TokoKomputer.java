@@ -1,18 +1,18 @@
 public class TokoKomputer {
-    //atribut
+    //atribut toko
+    int kode_toko;
+    String nama_toko;
+    //atribut barang
     int kode_barang;
     String nama_barang;
     String jenis_barang;
     int stok_barang;
     double harga_barang;
 
-    //construktor
-
-
+    //construktor barang
     public TokoKomputer() {
 
     }
-
     public TokoKomputer(int kode_barang, String nama_barang, String jenis_barang, int stok_barang, double harga_barang) {
         this.kode_barang = kode_barang;
         this.nama_barang = nama_barang;

@@ -1,8 +1,8 @@
 public class TokoKomputer {
     //atribut
+    int kode_barang;
     String nama_barang;
     String jenis_barang;
-    int kode_barang;
     int stok_barang;
     double harga_barang;
 
